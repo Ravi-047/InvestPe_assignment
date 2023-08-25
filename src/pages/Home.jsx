@@ -10,6 +10,10 @@ import "../App.css";
 import Button from "../components/Button/Button";
 import stockData from "../constant/stockData";
 import Partner from "../components/Partner/Partner";
+import profile from ".././assets/person_img.avif";
+
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -117,6 +121,136 @@ const Home = () => {
 
       <div>
         <Partner />
+      </div>
+
+      <div className="home_reviews">
+        <div>
+          <p>
+            Reviews From Early <br />
+            Adopters
+          </p>
+          <div>
+            <div>
+              <p>156k+</p>
+              <p>Registered Users</p>
+            </div>
+            <div>
+              <p>$1.5Mn+</p>
+              <p>Worth investing done</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="home_reviews_section">
+          <div>
+            <div className="reviews_img">
+              <img src={profile} alt="profile" />
+            </div>
+            <div className="reviews_title">
+              Mahesh, Swiggy delivery partner, Bengaluru
+            </div>
+            <div className="reviews_dis">
+              <span>
+                <ImQuotesLeft />
+              </span>
+              <p>
+                The onboarding experience on Chhotastock was very simple.. I did
+                my first investment in equity market in less than 2 minutes
+              </p>
+              <span>
+                <ImQuotesRight />
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <div className="reviews_dis">
+              <span>
+                <ImQuotesLeft />
+              </span>
+              <p>
+                The onboarding experience on Chhotastock was very simple.. I did
+                my first investment in equity market in less than 2 minutes
+              </p>
+              <span>
+                <ImQuotesRight />
+              </span>
+            </div>
+            <div className="reviews_title down_title">
+              Mahesh, Swiggy delivery partner, Bengaluru
+            </div>
+            <div className="reviews_img_down">
+              <img src={profile} alt="profile" />
+            </div>
+          </div>
+
+          <div>
+            <div className="reviews_img">
+              <img src={profile} alt="profile" />
+            </div>
+            <div className="reviews_title">
+              Mahesh, Swiggy delivery partner, Bengaluru
+            </div>
+            <div className="reviews_dis">
+              <span>
+                <ImQuotesLeft />
+              </span>
+              <p>
+                The onboarding experience on Chhotastock was very simple.. I did
+                my first investment in equity market in less than 2 minutes
+              </p>
+              <span>
+                <ImQuotesRight />
+              </span>
+            </div>
+          </div>
+
+          <div>
+            <div className="reviews_dis">
+              <span>
+                <ImQuotesLeft />
+              </span>
+              <p>
+                The onboarding experience on Chhotastock was very simple.. I did
+                my first investment in equity market in less than 2 minutes
+              </p>
+              <span>
+                <ImQuotesRight />
+              </span>
+            </div>
+            <div className="reviews_title down_title">
+              Mahesh, Swiggy delivery partner, Bengaluru
+            </div>
+            <div className="reviews_img_down">
+              <img src={profile} alt="profile" />
+            </div>
+          </div>
+
+          <div>
+            <div className="reviews_img">
+              <img src={profile} alt="profile" />
+            </div>
+            <div className="reviews_title">
+              Mahesh, Swiggy delivery partner, Bengaluru
+            </div>
+            <div className="reviews_dis">
+              <span>
+                <ImQuotesLeft />
+              </span>
+              <p>
+                The onboarding experience on Chhotastock was very simple.. I did
+                my first investment in equity market in less than 2 minutes
+              </p>
+              <span>
+                <ImQuotesRight />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="home_footer">
+        <Footer />
       </div>
     </div>
   );

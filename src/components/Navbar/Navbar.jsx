@@ -28,7 +28,7 @@ const Navbar = () => {
           />
         </div>
         <div className="nav_login">
-          <BiLogIn /> Login
+          <BiLogIn size={25} /> Login
         </div>
       </div>
     </nav>

@@ -1,9 +1,10 @@
 nav {
   background-color: #171e27;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.457);
 }
 
 .nav_main {
-  width: 80%;
+  width: 75%;
   height: 80px;
   margin: auto;
   display: flex;
@@ -50,9 +51,27 @@ nav {
   outline: none;
   cursor: pointer;
   color: white;
+  width: 100%;
 }
 
 .nav_search > input::placeholder {
   color: white;
   font-weight: 500;
+}
+
+.nav_login {
+  background-color: #fbc124;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.nav_login:hover {
+  background-color: #fbc224b9;
 }

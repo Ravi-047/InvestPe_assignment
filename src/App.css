@@ -1,0 +1,237 @@
+/* -------------- home page --------------- */
+.home_heading {
+  text-align: center;
+  background-color: #171e27;
+  color: white;
+  padding: 20px 0px;
+}
+
+.home_heading > h1 {
+  font-size: 2.8em;
+}
+
+.home_heading > p {
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.home_landing_image {
+  width: 100%;
+}
+
+.home_landing_image > img {
+  width: 100%;
+}
+
+.home_grid_area {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/grid_invest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_grid_flex_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.home_button_links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.home_button_links > p {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.home_button_links > p {
+  text-decoration: underline;
+}
+
+.home_grid_image {
+  width: 59%;
+}
+
+.home_grid_feature > p:nth-child(1) {
+  color: teal;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.home_grid_feature > p:nth-child(2),
+.home_grid_feature > p:nth-child(3) {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.home_grid_feature > p:nth-child(4) {
+  font-size: 19px;
+  color: gray;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-family: "Inter", sans-serif;
+}
+
+.home_essential_features {
+  width: 88%;
+  height: 80vh;
+  margin: auto;
+  background-image: url(./assets/essentialFeature.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px;
+  padding: 20px 40px;
+}
+
+.home_essential_features > h1:first-child {
+  margin-top: 35px;
+}
+.home_essential_features > h1 {
+  color: white;
+  font-size: 2.6em;
+  margin-left: 55px;
+}
+
+.home_essential_features > h1 > span {
+  color: #fbc124;
+}
+
+.home_essential_features > p:nth-child(3) {
+  color: rgb(180, 178, 178);
+  font-size: 23px;
+  margin-left: 55px;
+  margin-top: 30px;
+  width: 50%;
+}
+
+.home_essential_features > div:nth-child(4) {
+  display: flex;
+  align-items: center;
+  margin-left: 55px;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.home_essential_features > div:nth-child(4) > p {
+  color: rgb(180, 178, 178);
+  width: 40%;
+  font-size: 20px;
+}
+
+.home_essential_features > div:nth-child(5) {
+  margin-top: 50px;
+  margin-left: 55px;
+}
+
+.home_essential_features > div:nth-child(5) > p {
+  color: white;
+}
+
+.home_stock_investing {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 70px;
+  border: 1px solid transparent;
+}
+
+.home_stock_simplified {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.home_stock_simplified > p:nth-child(2) {
+  color: gray;
+  margin-top: 30px;
+  font-size: 23px;
+  width: 47%;
+}
+
+.home_stock_simplified > p:nth-child(3) {
+  color: gray;
+  margin-top: 30px;
+  font-size: 23px;
+  width: 50%;
+}
+.home_stock_simplified > p:nth-child(4) {
+  color: gray;
+  font-size: 23px;
+  width: 59%;
+}
+
+.home_stock_grid {
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.home_each_stock {
+  background-color: #222529;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home_each_stock > div:nth-child(1) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  padding: 0px 20px;
+  padding-top: 20px;
+}
+
+.home_each_stock > div:nth-child(1) > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.home_each_stock > p:nth-child(2) {
+  font-size: 13px;
+  color: gray;
+  padding: 0px 20px;
+  margin-top: 10px;
+}
+
+.home_each_stock > div:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+
+.home_each_stock > div:nth-child(3) > div > p:first-child {
+  color: gray;
+  font-size: 12px;
+}
+
+.home_each_stock > div:nth-child(3) > div > p:last-child {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home_stock_border {
+  border: 2px solid transparent;
+  padding: 2px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.home_stock_border:hover {
+  border: 2px solid black;
+}

@@ -1,0 +1,73 @@
+.header_main {
+  background-color: #171e27;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.header_main > div {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: fit-content;
+}
+
+.react-multi-carousel-list {
+  overflow: visible !important;
+}
+
+.react-multi-carousel-item {
+  width: fit-content !important;
+  margin-left: 10px !important;
+}
+
+.carousel_button_group {
+  position: absolute;
+  width: 95%;
+}
+.carousel_button_group > button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel_button_group > .left {
+  position: relative;
+  left: -20px;
+  top: -17px;
+}
+
+.carousel_button_group > .right {
+  position: relative;
+  right: calc(-100.5%);
+  top: -30px;
+}
+
+.header_warapper_price {
+  color: #a2a4a7;
+  font-weight: 400;
+}
+
+.redColor {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.greenColor {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}

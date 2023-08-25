@@ -1,0 +1,58 @@
+nav {
+  background-color: #171e27;
+}
+
+.nav_main {
+  width: 80%;
+  height: 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav_logo_slogan > p:first-child {
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+.nav_logo_slogan > p:first-child > span {
+  font-weight: 600;
+}
+
+.nav_logo_slogan > p:last-child {
+  color: white;
+  font-size: 10px;
+}
+
+.nav_search {
+  width: 350px;
+  height: 27px;
+  border-radius: 8px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  color: white;
+  gap: 10px;
+}
+
+.nav_search > input {
+  height: 100%;
+  background-color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.nav_search > input::placeholder {
+  color: white;
+  font-weight: 500;
+}

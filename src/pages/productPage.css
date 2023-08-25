@@ -1,0 +1,59 @@
+.productPage_stack_wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/grid_invest.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productPage_stack {
+  width: 75%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  gap: 40px;
+}
+
+.productPage_stack > div {
+  width: 50%;
+}
+
+.productPage_stack > div:first-child > h1 {
+  font-size: 2.6em;
+  color: #f3a61d;
+}
+
+.productPage_stack > div:first-child > h2 {
+  font-size: 2.4em;
+  margin-bottom: 30px;
+}
+
+.productPage_stack > div:first-child > p {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.productPage_stack > div:first-child > p > span {
+  color: green;
+}
+
+.productPage_stack > div:last-child > p {
+  font-size: 1.7em;
+  margin-bottom: 30px;
+}
+
+.productPage_stack > div:last-child > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 19px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.productPage_stack > div:last-child > div:nth-child(2) > p {
+  text-decoration: underline;
+}
+
+.img_three_card {
+  margin-top: 68px;
+}

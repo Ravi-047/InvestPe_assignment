@@ -1,6 +1,7 @@
 .partner_main {
   width: 80%;
   margin: auto;
+  margin-top: 20px;
   border-top: 2px solid gray;
   padding: 40px;
 }

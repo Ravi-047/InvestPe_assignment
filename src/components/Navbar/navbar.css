@@ -72,6 +72,11 @@ nav {
   font-weight: 600;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav_login:hover {
   background-color: #fbc224b9;
 }

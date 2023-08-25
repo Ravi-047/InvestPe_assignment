@@ -249,9 +249,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home_footer">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

@@ -4,6 +4,7 @@ import "./navbar.css";
 
 import { AiOutlineSearch } from "react-icons/ai";
 import { BiLogIn } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,9 +28,11 @@ const Navbar = () => {
             placeholder="Search stocks, ETFs indices"
           />
         </div>
-        <div className="nav_login">
-          <BiLogIn size={25} /> Login
-        </div>
+        <Link to="./product">
+          <div className="nav_login">
+            <BiLogIn size={25} /> Login
+          </div>
+        </Link>
       </div>
     </nav>
   );

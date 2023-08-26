@@ -9,6 +9,7 @@ import { FaChevronCircleDown } from "react-icons/fa";
 
 import "./productPage.css";
 import Button from "../components/Button/Button";
+import Feature from "../components/Features/Feature";
 
 const ProductPage = () => {
   return (
@@ -45,6 +46,7 @@ const ProductPage = () => {
         <img src={card} alt="card" className="img_three_card" />
       </div>
 
+      <Feature />
       <Partner />
       <Footer />
     </div>

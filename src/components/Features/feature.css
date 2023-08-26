@@ -1,0 +1,79 @@
+.feature_main {
+  width: 75%;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+}
+
+.feature_main > div {
+  width: 50%;
+}
+
+.feature_launch > p:nth-child(1) {
+  color: green;
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.feature_launch > p:nth-child(2) {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.feature_launch > p:nth-child(3) {
+  font-size: 20px;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.feature_launch > div:nth-child(4) {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.feature_launch > div:nth-child(4) > p {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.feature_option {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+  padding: 0px 30px;
+}
+
+.feature_option > div {
+  background-color: #f3f3f3;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.feature_option > div > p:first-child {
+  color: gray;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.feature_option > div > p:last-child {
+  color: gray;
+  margin-top: 20px;
+}
+
+.feature_option > div:hover {
+  background-color: black;
+  color: white;
+}

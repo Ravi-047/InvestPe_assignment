@@ -46,6 +46,7 @@ npm start
 2.Open your web browser and go to <http://localhost:3000> to access the InvestPe website.
 
 ### Overview of the Website
+
 ![image](https://github.com/Ravi-047/InvestPe_assignment/assets/103764080/e494d440-3185-4bec-b663-fcc567e55e29)
 
 ![image](https://github.com/Ravi-047/InvestPe_assignment/assets/103764080/f482f8a3-18d7-4d3f-b65a-7c230fdf5646)

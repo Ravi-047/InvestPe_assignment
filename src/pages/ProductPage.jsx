@@ -45,7 +45,9 @@ const ProductPage = () => {
             </div>
           </div>
         </div>
-        <img src={card} alt="card" className="img_three_card" />
+        <div className="three_card">
+          <img src={card} alt="card" className="img_three_card" />
+        </div>
       </div>
 
       <Feature />

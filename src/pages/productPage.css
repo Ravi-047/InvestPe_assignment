@@ -53,9 +53,12 @@
 .productPage_stack > div:last-child > div:nth-child(2) > p {
   text-decoration: underline;
 }
-
+.three_card {
+  width: 100%;
+}
 .img_three_card {
   margin-top: 68px;
+  width: 100%;
 }
 
 .productPage_connect {

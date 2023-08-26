@@ -57,3 +57,35 @@
 .img_three_card {
   margin-top: 68px;
 }
+
+.productPage_connect {
+  width: 85%;
+  margin: auto;
+  height: 80vh;
+  background-image: url(../assets/hand_InvestPe_back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 80px;
+  padding: 50px;
+}
+
+.productPage_connect > h1 {
+  color: white;
+  font-size: 2.6em;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.productPage_connect > p {
+  margin-left: 45px;
+  color: gray;
+  font-size: 21px;
+  font-weight: 500;
+  width: 55%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.productPage_connect > div {
+  margin-left: 45px;
+}

@@ -10,6 +10,7 @@ import { FaChevronCircleDown } from "react-icons/fa";
 import "./productPage.css";
 import Button from "../components/Button/Button";
 import Feature from "../components/Features/Feature";
+import Contact from "../components/Contacts/Contact";
 
 const ProductPage = () => {
   return (
@@ -47,7 +48,21 @@ const ProductPage = () => {
       </div>
 
       <Feature />
+      <div className="productPage_connect">
+        <h1>
+          Connect your platform finances <br /> now with InvestPe Gateway
+        </h1>
+        <p>
+          We help brokers, wealth managers, fund managers & other businesses /
+          startups server their customers better with our suite of modern
+          digital investment stack
+        </p>
+        <div>
+          <Button name="Try InvestPe Now" />
+        </div>
+      </div>
       <Partner />
+      <Contact />
       <Footer />
     </div>
   );

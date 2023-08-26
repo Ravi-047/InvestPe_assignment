@@ -1,5 +1,7 @@
 # Welcome to InvestPe
 
+![image](https://github.com/Ravi-047/InvestPe_assignment/assets/103764080/4737baa5-9e03-4ba8-bd00-48028f1292a8)
+
 InvestPe is a stunning and user-friendly investment portfolio website created using `React.js`, `CSS`, `react-router-dom`, and `react-icons`. Whether you're an experienced investor or just starting to explore the world of investments, InvestPe provides you with a seamless platform to manage and track your investment portfolio.
 
 ## Visit the Deployed Website
@@ -44,6 +46,11 @@ npm start
 2.Open your web browser and go to <http://localhost:3000> to access the InvestPe website.
 
 ### Overview of the Website
+![image](https://github.com/Ravi-047/InvestPe_assignment/assets/103764080/e494d440-3185-4bec-b663-fcc567e55e29)
+
+![image](https://github.com/Ravi-047/InvestPe_assignment/assets/103764080/f482f8a3-18d7-4d3f-b65a-7c230fdf5646)
+
+![image](https://github.com/Ravi-047/InvestPe_assignment/assets/103764080/1d60591c-8d04-4fe2-8599-19b49072e187)
 
 We hope you enjoy using InvestPe to manage your investment portfolio effectively.
 

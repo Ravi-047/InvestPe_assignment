@@ -11,6 +11,7 @@ import "./productPage.css";
 import Button from "../components/Button/Button";
 import Feature from "../components/Features/Feature";
 import Contact from "../components/Contacts/Contact";
+import Solution from "../components/Solution/Solution";
 
 const ProductPage = () => {
   return (
@@ -61,6 +62,7 @@ const ProductPage = () => {
           <Button name="Try InvestPe Now" />
         </div>
       </div>
+      <Solution />
       <Partner />
       <Contact />
       <Footer />

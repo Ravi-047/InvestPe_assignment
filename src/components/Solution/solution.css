@@ -1,0 +1,144 @@
+.solution_main {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.solution_main > p {
+  color: green;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.solution_features {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.features_first {
+  width: 80%;
+}
+
+.features_second {
+  width: 20%;
+}
+
+.so_first {
+  display: flex;
+  gap: 30px;
+}
+
+.fisrt_second {
+  display: flex;
+}
+
+.so_first > div:first-child {
+  background-color: #fef8ec;
+  padding: 30px 20px;
+  width: 45%;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 0, 0, 0.394);
+  color: #7c59cf;
+}
+
+.so_first > div:first-child > p {
+  margin-bottom: 10px;
+}
+
+.fisrt_second {
+  background-color: #fafcfd;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 0, 0, 0.394);
+  padding: 30px 20px 0px 20px;
+}
+
+.fisrt_second > div > p:first-child {
+  color: #7c59cf;
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.fisrt_second > div > p:last-child {
+  font-weight: 500;
+  font-size: 22px;
+  width: 80%;
+}
+
+.so_img > img {
+  margin-top: 60px;
+}
+
+.so_second {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.so_second > div {
+  width: 50%;
+  background-color: #fafcfd;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 0, 0, 0.394);
+  padding: 30px 20px;
+}
+
+.so_second > div > p:nth-child(1) {
+  color: #7c59cf;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.so_second > div > p:nth-child(2) {
+  color: #7c59cf;
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.so_check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.features_second {
+  background-color: #fef8ec;
+  padding: 30px 20px 0px 20px;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 0, 0, 0.394);
+}
+
+.features_second > p:nth-child(2) {
+  color: #7c59cf;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.features_second > p:nth-child(3) {
+  color: #7c59cf;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.features_second > p:nth-child(4) {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.so_fd {
+  height: 320px;
+}
+
+.so_fd > img {
+  width: 100%;
+  height: 100%;
+}
